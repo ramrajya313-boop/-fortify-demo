@@ -29,10 +29,11 @@ jobs:
         run: sourceanalyzer -b fortify-demo -scan -f fortify-demo.fpr
 
       - name: Upload FPR to SSC
+        shell: cmd
         run: |
           fortifyclient uploadFPR ^
-          -url ${{ secrets.SSC_URL }} ^
-          -applicationVersionID 10008 ^
-          -file fortify-demo.fpr ^
-          -user ${{ secrets.SSC_USER }} ^
-          -password ${{ secrets.SSC_PASSWORD }}
+            -url=${{ secrets.SSC_URL }} ^
+            -applicationVersionID=10008 ^
+            -file=fortify-demo.fpr ^
+            -user=${{ secrets.SSC_USER }} ^
+            -password=${{ secrets.SSC_PASSWORD }}
