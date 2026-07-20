@@ -1,0 +1,1 @@
+"-version" "-b" "fortify-demo" "-logfile" "C:/-fortify-demo/target/fortify/sca-translate.log" "-java-build-dir" "C:/-fortify-demo/target/classes" "C:/-fortify-demo/pom.xml"

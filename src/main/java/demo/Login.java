@@ -1,7 +1,7 @@
 package demo;
 
 import java.sql.Connection;
-import java.sql.Statement;
+import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 
 public class Login {
@@ -10,17 +10,16 @@ public class Login {
 
         Connection con = Database.getConnection();
 
-        Statement st = con.createStatement();
-
         String sql =
-                "SELECT * FROM users WHERE username='"
-                        + username +
-                        "' AND password='"
-                        + password + "'";
+            "SELECT * FROM users WHERE username = ? AND password = ?";
 
-        ResultSet rs = st.executeQuery(sql);
+        PreparedStatement ps = con.prepareStatement(sql);
+
+        ps.setString(1, username);
+        ps.setString(2, password);
+
+        ResultSet rs = ps.executeQuery();
 
         return rs.next();
     }
-
 }

@@ -1,0 +1,598 @@
+[2026-07-20 03:37:49.347 INFO  ]
+loggerConfig:
+   level:INFO
+   filename:C:\-fortify-demo\target\fortify\sca-translate.log
+   appendLogFile:true
+   installLoggingPrintStreams:true
+
+   logger:com.fortify.logging.log4j2.LoggerFactory marker:DEV thread:sourceanalyzer-27
+   MDC:{msgId=-1, severity=NONE} NDC:[]
+[2026-07-20 03:37:49.465 INFO  ]
+0 suppressions loaded
+   logger:com.fortify.sca.cmd.CommandLine marker:DEV thread:sourceanalyzer-27
+   MDC:{msgId=-1, severity=NONE} NDC:[]
+[2026-07-20 03:37:49.466 INFO  ]
+0 level adjustments loaded
+   logger:com.fortify.sca.cmd.CommandLine marker:DEV thread:sourceanalyzer-27
+   MDC:{msgId=-1, severity=NONE} NDC:[]
+[2026-07-20 03:37:49.753 INFO  ]
+OpenText SAST (Fortify) 26.2.2.0001 (using JRE 21.0.10)
+Modules:
+.NET Frontend 26.2.2.0001
+.NET and ASP.NET Translators 26.2.2.0001
+AngularJS Translator Utils 26.2.2.0001
+Apex Translator 26.2.2.0001
+C/C++ Translator (CTran) 26.2.0.0006
+Flight main!15241_01a7399b
+Go Translator 26.2.2.0001
+Kotlin Translator 26.2.2.0001
+Legacy Apex Translator 26.2.2.0001
+Legacy Translators 26.2.2.0001
+MSBuild Plugin 26.2.2.0001
+Modified Rhino 26.2.2.0001
+PHP Translator 26.2.2.0001
+Python Translator 26.2.2.0001
+SCA Backend 26.2.2.0001
+SCA Data 26.2.2.0001
+SCA Frontend 26.2.2.0001
+SCA Platform 26.2.2.0001
+   logger:com.fortify.sca.Main marker:DEV thread:sourceanalyzer-27
+   MDC:{msgId=-1, severity=INFO_VERBOSE} NDC:[]
+[2026-07-20 03:37:49.754 INFO  ]
+Args:
+["-version", "-b", "fortify-demo", "-logfile", "C:/-fortify-demo/target/fortify/sca-translate.log", "-java-build-dir", "C:/-fortify-demo/target/classes", "C:/-fortify-demo/pom.xml"]
+   logger:com.fortify.sca.Main marker:DEV thread:sourceanalyzer-27
+   MDC:{msgId=-1, severity=LOG_STATUS} NDC:[]
+[2026-07-20 03:37:49.754 INFO  ]
+VM Args:
+"-XX:+UseParallelGC -XX:SoftRefLRUPolicyMSPerMB=3000 --add-exports=jdk.management/com.sun.management.internal=ALL-UNNAMED --add-exports=java.base/jdk.internal.misc=ALL-UNNAMED --add-opens=java.base/java.nio=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/sun.security.jca=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/sun.nio.ch=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.util.regex=ALL-UNNAMED --add-opens=java.base/java.net=ALL-UNNAMED --add-opens=java.base/javax.crypto=ALL-UNNAMED --add-opens=java.management/sun.management=ALL-UNNAMED -Xmx6441426944 -Xss16M"
+   logger:com.fortify.sca.Main marker:DEV thread:sourceanalyzer-27
+   MDC:{msgId=-1, severity=LOG_STATUS} NDC:[]
+[2026-07-20 03:37:49.858 INFO  ]
+Front End started
+   logger:com.fortify.sca.frontend.FrontEndSession marker:DEV thread:sourceanalyzer-27
+   MDC:{msgId=-1, severity=LOG_STATUS, step=INIT} NDC:[timerAllFrontEnds]
+[2026-07-20 03:37:50.130 INFO  ]
+Front End complete
+   logger:com.fortify.sca.frontend.FrontEndSession marker:DEV thread:sourceanalyzer-27
+   MDC:{msgId=-1, severity=LOG_STATUS, step=INIT} NDC:[timerAllFrontEnds]
+[2026-07-20 03:37:50.375 INFO  ]
+Timers: (elapsed 00:00)
+AllFrontEnds:                                00:00 [139]         00:00 [274]
+ApexFrontEnd:                                00:00 [3]           00:00 [3]
+COBOLFrontEnd:                               00:00 [1]           00:00 [1]
+DotnetFrontEnd:                              00:00 [101]         00:00 [101]
+JavaFrontEnd:                                00:00 [3]           00:00 [3]
+JavaScriptFrontEnd:                          00:00 [7]           00:00 [7]
+LegacyApexFrontEnd:                          00:00 [1]           00:00 [1]
+PHPFrontEnd:                                 00:00 [15]          00:00 [15]
+PythonFrontEnd:                              00:00 [3]           00:00 [3]
+VBScriptFrontEnd:                            00:00 [1]           00:00 [1]
+
+Counters:
+
+Heap: [free:] 149,938,288 [max:] 5,726,797,824 [total:] 231,211,008
+Live NST: [VarDecl:] 0 [FunDecl:] 0
+NST Serializer:  queued: 0  pinned: 0
+NCT Serializer:  queued: 0  pinned: 0
+Task information
+  Completed count:     0
+  Completed time (ms): 0
+Longest tasks (ms):
+
+MxInfo:
+ClassLoadingMXBean: 
+  LoadedClassCount: 6648
+  TotalLoadedClassCount: 6688
+  UnloadedClassCount: 40
+  Verbose: false
+CompilationMXBean: HotSpot 64-Bit Tiered Compilers
+  CompilationTimeMonitoringSupported: true
+  TotalCompilationTime: 4299
+[GarbageCollectorMXBeans]
+  GarbageCollectorMXBean: PS MarkSweep
+    CollectionCount: 2
+    CollectionTime: 59
+    LastGcInfo: GcThreadCount = 1 duration = 36 endTime = 2753 id = 2 startTime = 2717 
+    MemoryPoolNames: [PS Eden Space, PS Survivor Space, PS Old Gen]
+    Valid: true
+  GarbageCollectorMXBean: PS Scavenge
+    CollectionCount: 5
+    CollectionTime: 47
+    LastGcInfo: GcThreadCount = 1 duration = 2 endTime = 2717 id = 5 startTime = 2715 
+    MemoryPoolNames: [PS Eden Space, PS Survivor Space]
+    Valid: true
+MemoryMXBean: 
+  HeapMemoryUsage: init = 134217728(131072K) used = 29537760(28845K) committed = 231211008(225792K) max = 5726797824(5592576K)
+  NonHeapMemoryUsage: init = 7667712(7488K) used = 46866896(45768K) committed = 52101120(50880K) max = -1(-1K)
+  ObjectPendingFinalizationCount: 0
+  Verbose: false
+[MemoryPoolMXBeans]
+  MemoryPoolMXBean: CodeHeap 'non-nmethods'
+    MemoryManagerNames: [CodeCacheManager]
+    PeakUsage: init = 2555904(2496K) used = 1420416(1387K) committed = 2555904(2496K) max = 5898240(5760K)
+    Type: Non-heap memory
+    Usage: init = 2555904(2496K) used = 1363840(1331K) committed = 2555904(2496K) max = 5898240(5760K)
+    UsageThreshold: 0
+    UsageThresholdCount: 0
+    UsageThresholdExceeded: false
+  MemoryPoolMXBean: Metaspace
+    MemoryManagerNames: [Metaspace Manager]
+    PeakUsage: init = 0(0K) used = 35642400(34807K) committed = 36700160(35840K) max = -1(-1K)
+    Type: Non-heap memory
+    Usage: init = 0(0K) used = 35330488(34502K) committed = 36503552(35648K) max = -1(-1K)
+    UsageThreshold: 0
+    UsageThresholdCount: 0
+    UsageThresholdExceeded: false
+  MemoryPoolMXBean: CodeHeap 'profiled nmethods'
+    MemoryManagerNames: [CodeCacheManager]
+    PeakUsage: init = 2555904(2496K) used = 6082560(5940K) committed = 6094848(5952K) max = 122880000(120000K)
+    Type: Non-heap memory
+    Usage: init = 2555904(2496K) used = 4744192(4633K) committed = 6094848(5952K) max = 122880000(120000K)
+    UsageThreshold: 0
+    UsageThresholdCount: 0
+    UsageThresholdExceeded: false
+  MemoryPoolMXBean: PS Old Gen
+    CollectionUsage: init = 89653248(87552K) used = 27265752(26626K) committed = 89653248(87552K) max = 4294967296(4194304K)
+    CollectionUsageThreshold: 0
+    CollectionUsageThresholdCount: 0
+    CollectionUsageThresholdExceeded: false
+    MemoryManagerNames: [PS MarkSweep]
+    PeakUsage: init = 89653248(87552K) used = 27809184(27157K) committed = 89653248(87552K) max = 4294967296(4194304K)
+    Type: Heap memory
+    Usage: init = 89653248(87552K) used = 27265752(26626K) committed = 89653248(87552K) max = 4294967296(4194304K)
+    UsageThreshold: 0
+    UsageThresholdCount: 0
+    UsageThresholdExceeded: false
+  MemoryPoolMXBean: Compressed Class Space
+    MemoryManagerNames: [Metaspace Manager]
+    PeakUsage: init = 0(0K) used = 3835072(3745K) committed = 4390912(4288K) max = 1073741824(1048576K)
+    Type: Non-heap memory
+    Usage: init = 0(0K) used = 3835072(3745K) committed = 4390912(4288K) max = 1073741824(1048576K)
+    UsageThreshold: 0
+    UsageThresholdCount: 0
+    UsageThresholdExceeded: false
+  MemoryPoolMXBean: PS Survivor Space
+    CollectionUsage: init = 5242880(5120K) used = 0(0K) committed = 5242880(5120K) max = 5242880(5120K)
+    CollectionUsageThreshold: 0
+    CollectionUsageThresholdCount: 0
+    CollectionUsageThresholdExceeded: false
+    MemoryManagerNames: [PS MarkSweep, PS Scavenge]
+    PeakUsage: init = 5242880(5120K) used = 5233880(5111K) committed = 5242880(5120K) max = 5242880(5120K)
+    Type: Heap memory
+    Usage: init = 5242880(5120K) used = 0(0K) committed = 5242880(5120K) max = 5242880(5120K)
+  MemoryPoolMXBean: PS Eden Space
+    CollectionUsage: init = 34078720(33280K) used = 0(0K) committed = 136314880(133120K) max = 2121793536(2072064K)
+    CollectionUsageThreshold: 0
+    CollectionUsageThresholdCount: 0
+    CollectionUsageThresholdExceeded: false
+    MemoryManagerNames: [PS MarkSweep, PS Scavenge]
+    PeakUsage: init = 34078720(33280K) used = 68157440(66560K) committed = 136314880(133120K) max = 2136997888(2086912K)
+    Type: Heap memory
+    Usage: init = 34078720(33280K) used = 3635184(3549K) committed = 136314880(133120K) max = 2121793536(2072064K)
+  MemoryPoolMXBean: CodeHeap 'non-profiled nmethods'
+    MemoryManagerNames: [CodeCacheManager]
+    PeakUsage: init = 2555904(2496K) used = 1904000(1859K) committed = 2555904(2496K) max = 122880000(120000K)
+    Type: Non-heap memory
+    Usage: init = 2555904(2496K) used = 1599744(1562K) committed = 2555904(2496K) max = 122880000(120000K)
+    UsageThreshold: 0
+    UsageThresholdCount: 0
+    UsageThresholdExceeded: false
+OperatingSystemMXBean: Windows Server 2019
+  Arch: amd64
+  AvailableProcessors: 4
+  CommittedVirtualMemorySize: 618995712
+  CpuLoad: 0.0
+  FreeMemorySize: 2564489216
+  FreePhysicalMemorySize: 2547224576
+  FreeSwapSpaceSize: 6122577920
+  ProcessCpuLoad: 0.7101239819662595
+  ProcessCpuTime: 7109375000
+  SystemCpuLoad: 0.0
+  SystemLoadAverage: -1.0
+  TotalMemorySize: 8588910592
+  TotalPhysicalMemorySize: 8588910592
+  TotalSwapSpaceSize: 13834743808
+  Version: 10.0
+ThreadMXBean: 
+  CurrentThreadAllocatedBytes: 69424040
+  CurrentThreadCpuTime: 968750000
+  CurrentThreadUserTime: 828125000
+  DaemonThreadCount: 11
+  ObjectMonitorUsageSupported: true
+  PeakThreadCount: 13
+  SynchronizerUsageSupported: true
+  ThreadAllocatedMemoryEnabled: true
+  ThreadAllocatedMemorySupported: true
+  ThreadCount: 13
+  TotalStartedThreadCount: 13
+  TotalThreadAllocatedBytes: 214763328
+  Thread 1 [main]
+    ThreadCpuTime: 1703125000
+    ThreadUserTime: 1609375000
+  Thread 5 [Reference Handler]
+    ThreadCpuTime: 0
+    ThreadUserTime: 0
+  Thread 6 [Finalizer]
+    ThreadCpuTime: 0
+    ThreadUserTime: 0
+  Thread 7 [Signal Dispatcher]
+    ThreadCpuTime: 0
+    ThreadUserTime: 0
+  Thread 8 [Attach Listener]
+    ThreadCpuTime: 0
+    ThreadUserTime: 0
+  Thread 14 [Notification Thread]
+    ThreadCpuTime: 0
+    ThreadUserTime: 0
+  Thread 15 [Common-Cleaner]
+    ThreadCpuTime: 0
+    ThreadUserTime: 0
+  Thread 21 [BC FIPS Entropy Daemon]
+    ThreadCpuTime: 0
+    ThreadUserTime: 0
+  Thread 22 [Cleaner-0]
+    ThreadCpuTime: 0
+    ThreadUserTime: 0
+  Thread 23 [RMI TCP Accept-0]
+    ThreadCpuTime: 0
+    ThreadUserTime: 0
+  Thread 27 [sourceanalyzer]
+    ThreadCpuTime: 984375000
+    ThreadUserTime: 984375000
+  Thread 28 [Stream Monitor [out] ]
+    ThreadCpuTime: 0
+    ThreadUserTime: 0
+  Thread 29 [Stream Monitor [err] ]
+    ThreadCpuTime: 0
+    ThreadUserTime: 0
+
+   logger:com.fortify.sca.Main marker:DEV thread:sourceanalyzer-27
+   MDC:{msgId=-1, severity=NONE, step=INIT} NDC:[]
+[2026-07-20 03:37:50.510 INFO  ]
+message id statistics:
+   id:        -1 total:        34 totalSuppressedCount:         0 scope:[]
+
+   logger:com.fortify.messaging.MessageSuppressor marker:DEV thread:sourceanalyzer-27
+   MDC:{msgId=-1, severity=NONE, step=INIT} NDC:[]
+[2026-07-20 03:37:50.511 INFO  ]
+logger:null  count:10
+   level:INFO count:10
+logger:com.fortify.messaging.MessageSuppressor  count:1
+   level:INFO count:1
+logger:com.fortify.sca.cmd.CommandLine  count:2
+   level:INFO count:2
+logger:com.fortify.logging.log4j2.LoggerFactory  count:1
+   level:INFO count:1
+logger:com.fortify.sca.Main  count:4
+   level:INFO count:4
+logger:com.fortify.sca.frontend.FrontEndSession  count:2
+   level:INFO count:2
+
+   logger:com.fortify.logging.LoggerStats marker:DEV thread:sourceanalyzer-27
+   MDC:{msgId=-1, severity=NONE, step=INIT} NDC:[]
+[2026-07-20 03:37:52.942 INFO  ]
+loggerConfig:
+   level:INFO
+   filename:C:\-fortify-demo\target\fortify\sca-translate.log
+   appendLogFile:true
+   installLoggingPrintStreams:true
+
+   logger:com.fortify.logging.log4j2.LoggerFactory marker:DEV thread:sourceanalyzer-27
+   MDC:{msgId=-1, severity=NONE} NDC:[]
+[2026-07-20 03:37:53.063 INFO  ]
+0 suppressions loaded
+   logger:com.fortify.sca.cmd.CommandLine marker:DEV thread:sourceanalyzer-27
+   MDC:{msgId=-1, severity=NONE} NDC:[]
+[2026-07-20 03:37:53.064 INFO  ]
+0 level adjustments loaded
+   logger:com.fortify.sca.cmd.CommandLine marker:DEV thread:sourceanalyzer-27
+   MDC:{msgId=-1, severity=NONE} NDC:[]
+[2026-07-20 03:37:53.364 INFO  ]
+OpenText SAST (Fortify) 26.2.2.0001 (using JRE 21.0.10)
+Modules:
+.NET Frontend 26.2.2.0001
+.NET and ASP.NET Translators 26.2.2.0001
+AngularJS Translator Utils 26.2.2.0001
+Apex Translator 26.2.2.0001
+C/C++ Translator (CTran) 26.2.0.0006
+Flight main!15241_01a7399b
+Go Translator 26.2.2.0001
+Kotlin Translator 26.2.2.0001
+Legacy Apex Translator 26.2.2.0001
+Legacy Translators 26.2.2.0001
+MSBuild Plugin 26.2.2.0001
+Modified Rhino 26.2.2.0001
+PHP Translator 26.2.2.0001
+Python Translator 26.2.2.0001
+SCA Backend 26.2.2.0001
+SCA Data 26.2.2.0001
+SCA Frontend 26.2.2.0001
+SCA Platform 26.2.2.0001
+   logger:com.fortify.sca.Main marker:DEV thread:sourceanalyzer-27
+   MDC:{msgId=-1, severity=INFO_VERBOSE} NDC:[]
+[2026-07-20 03:37:53.365 INFO  ]
+Args:
+["-version", "-b", "fortify-demo", "-logfile", "C:/-fortify-demo/target/fortify/sca-translate.log", "-java-build-dir", "C:/-fortify-demo/target/classes", "-source", "11", "-cp", "C:/Users/Administrator/.m2/repository/com/mysql/mysql-connector-j/9.4.0/mysql-connector-j-9.4.0.jar", "-cp", "C:/Users/Administrator/.m2/repository/com/google/protobuf/protobuf-java/4.31.1/protobuf-java-4.31.1.jar", "-cp", "C:/Users/Administrator/.m2/repository/jakarta/servlet/jakarta.servlet-api/6.1.0/jakarta.servlet-api-6.1.0.jar", "C:/-fortify-demo/src/main/java"]
+   logger:com.fortify.sca.Main marker:DEV thread:sourceanalyzer-27
+   MDC:{msgId=-1, severity=LOG_STATUS} NDC:[]
+[2026-07-20 03:37:53.366 INFO  ]
+VM Args:
+"-XX:+UseParallelGC -XX:SoftRefLRUPolicyMSPerMB=3000 --add-exports=jdk.management/com.sun.management.internal=ALL-UNNAMED --add-exports=java.base/jdk.internal.misc=ALL-UNNAMED --add-opens=java.base/java.nio=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/sun.security.jca=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/sun.nio.ch=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.util.regex=ALL-UNNAMED --add-opens=java.base/java.net=ALL-UNNAMED --add-opens=java.base/javax.crypto=ALL-UNNAMED --add-opens=java.management/sun.management=ALL-UNNAMED -Xmx6441426944 -Xss16M"
+   logger:com.fortify.sca.Main marker:DEV thread:sourceanalyzer-27
+   MDC:{msgId=-1, severity=LOG_STATUS} NDC:[]
+[2026-07-20 03:37:53.490 INFO  ]
+Front End started
+   logger:com.fortify.sca.frontend.FrontEndSession marker:DEV thread:sourceanalyzer-27
+   MDC:{msgId=-1, severity=LOG_STATUS, step=INIT} NDC:[timerAllFrontEnds]
+[2026-07-20 03:37:53.517 INFO  ]
+Initializing Java Type Table
+   logger:com.fortify.sca.frontend.javaJSP.JavaFrontEnd marker:DEV thread:sourceanalyzer-27
+   MDC:{frontend=JavaFrontEnd, msgId=-1, severity=LOG_STATUS, step=SRC_PARSE} NDC:[timerAllFrontEnds, timerJavaFrontEnd]
+[2026-07-20 03:37:54.016 INFO  ]
+Translating 10 java files
+   logger:com.fortify.sca.frontend.javaJSP.JavaFrontEnd marker:DEV thread:sourceanalyzer-27
+   MDC:{frontend=JavaFrontEnd, msgId=-1, severity=LOG_STATUS, step=SRC_PARSE} NDC:[timerAllFrontEnds, timerJavaFrontEnd]
+[2026-07-20 03:37:54.749 INFO  1450]
+Processing C:\-fortify-demo\src\main\java\demo\AdminController.java
+   logger:com.fortify.sca.frontend.javaJSP.JavaFrontEnd marker:USER thread:sourceanalyzer-27
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, severity=INFO_VERBOSE, sourceInfo=AdminController.java, step=SRC_PARSE} NDC:[timerAllFrontEnds, timerJavaFrontEnd]
+[2026-07-20 03:37:54.827 INFO  1450]
+Processing C:\-fortify-demo\src\main\java\demo\Config.java
+   logger:com.fortify.sca.frontend.javaJSP.JavaFrontEnd marker:USER thread:sourceanalyzer-27
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, severity=INFO_VERBOSE, sourceInfo=Config.java, step=SRC_PARSE} NDC:[timerAllFrontEnds, timerJavaFrontEnd]
+[2026-07-20 03:37:54.841 INFO  1450]
+Processing C:\-fortify-demo\src\main\java\demo\Database.java
+   logger:com.fortify.sca.frontend.javaJSP.JavaFrontEnd marker:USER thread:sourceanalyzer-27
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, severity=INFO_VERBOSE, sourceInfo=Database.java, step=SRC_PARSE} NDC:[timerAllFrontEnds, timerJavaFrontEnd]
+[2026-07-20 03:37:54.864 INFO  1450]
+Processing C:\-fortify-demo\src\main\java\demo\FileDownload.java
+   logger:com.fortify.sca.frontend.javaJSP.JavaFrontEnd marker:USER thread:sourceanalyzer-27
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, severity=INFO_VERBOSE, sourceInfo=FileDownload.java, step=SRC_PARSE} NDC:[timerAllFrontEnds, timerJavaFrontEnd]
+[2026-07-20 03:37:54.875 INFO  1450]
+Processing C:\-fortify-demo\src\main\java\demo\LoggerService.java
+   logger:com.fortify.sca.frontend.javaJSP.JavaFrontEnd marker:USER thread:sourceanalyzer-27
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, severity=INFO_VERBOSE, sourceInfo=LoggerService.java, step=SRC_PARSE} NDC:[timerAllFrontEnds, timerJavaFrontEnd]
+[2026-07-20 03:37:54.886 INFO  1450]
+Processing C:\-fortify-demo\src\main\java\demo\Login.java
+   logger:com.fortify.sca.frontend.javaJSP.JavaFrontEnd marker:USER thread:sourceanalyzer-27
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, severity=INFO_VERBOSE, sourceInfo=Login.java, step=SRC_PARSE} NDC:[timerAllFrontEnds, timerJavaFrontEnd]
+[2026-07-20 03:37:54.902 INFO  1450]
+Processing C:\-fortify-demo\src\main\java\demo\Main.java
+   logger:com.fortify.sca.frontend.javaJSP.JavaFrontEnd marker:USER thread:sourceanalyzer-27
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, severity=INFO_VERBOSE, sourceInfo=Main.java, step=SRC_PARSE} NDC:[timerAllFrontEnds, timerJavaFrontEnd]
+[2026-07-20 03:37:54.909 INFO  1450]
+Processing C:\-fortify-demo\src\main\java\demo\PasswordManager.java
+   logger:com.fortify.sca.frontend.javaJSP.JavaFrontEnd marker:USER thread:sourceanalyzer-27
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, severity=INFO_VERBOSE, sourceInfo=PasswordManager.java, step=SRC_PARSE} NDC:[timerAllFrontEnds, timerJavaFrontEnd]
+[2026-07-20 03:37:54.916 INFO  1450]
+Processing C:\-fortify-demo\src\main\java\demo\UserController.java
+   logger:com.fortify.sca.frontend.javaJSP.JavaFrontEnd marker:USER thread:sourceanalyzer-27
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, severity=INFO_VERBOSE, sourceInfo=UserController.java, step=SRC_PARSE} NDC:[timerAllFrontEnds, timerJavaFrontEnd]
+[2026-07-20 03:37:54.922 INFO  1450]
+Processing C:\-fortify-demo\src\main\java\demo\Utils.java
+   logger:com.fortify.sca.frontend.javaJSP.JavaFrontEnd marker:USER thread:sourceanalyzer-27
+   MDC:{frontend=JavaFrontEnd, msgId=1450, pass=Processing, severity=INFO_VERBOSE, sourceInfo=Utils.java, step=SRC_PARSE} NDC:[timerAllFrontEnds, timerJavaFrontEnd]
+[2026-07-20 03:37:55.241 INFO  ]
+Front End complete
+   logger:com.fortify.sca.frontend.FrontEndSession marker:DEV thread:sourceanalyzer-27
+   MDC:{msgId=-1, severity=LOG_STATUS, step=SRC_PARSE} NDC:[timerAllFrontEnds]
+[2026-07-20 03:37:55.426 INFO  ]
+Timers: (elapsed 00:00)
+AllFrontEnds:                                00:00 [138]         00:01 [1751]
+ApexFrontEnd:                                00:00 [3]           00:00 [3]
+COBOLFrontEnd:                               00:00 [1]           00:00 [1]
+DotnetFrontEnd:                              00:00 [110]         00:00 [110]
+JavaFrontEnd:                                00:01 [1474]        00:01 [1474]
+JavaScriptFrontEnd:                          00:00 [6]           00:00 [6]
+KotlinFrontEnd2:                             00:00 [1]           00:00 [1]
+LegacyApexFrontEnd:                          00:00 [1]           00:00 [1]
+PHPFrontEnd:                                 00:00 [13]          00:00 [13]
+PythonFrontEnd:                              00:00 [3]           00:00 [3]
+TSQLFrontEnd:                                00:00 [1]           00:00 [1]
+
+Counters:
+
+Heap: [free:] 132,579,000 [max:] 5,726,797,824 [total:] 231,211,008
+Live NST: [VarDecl:] 0 [FunDecl:] 0
+NST Serializer:  queued: 0  pinned: 0
+NCT Serializer:  queued: 0  pinned: 0
+Task information
+  Completed count:     0
+  Completed time (ms): 0
+Longest tasks (ms):
+
+MxInfo:
+ClassLoadingMXBean: 
+  LoadedClassCount: 7962
+  TotalLoadedClassCount: 7962
+  UnloadedClassCount: 0
+  Verbose: false
+CompilationMXBean: HotSpot 64-Bit Tiered Compilers
+  CompilationTimeMonitoringSupported: true
+  TotalCompilationTime: 6963
+[GarbageCollectorMXBeans]
+  GarbageCollectorMXBean: PS MarkSweep
+    CollectionCount: 2
+    CollectionTime: 62
+    LastGcInfo: GcThreadCount = 1 duration = 38 endTime = 3427 id = 2 startTime = 3389 
+    MemoryPoolNames: [PS Eden Space, PS Survivor Space, PS Old Gen]
+    Valid: true
+  GarbageCollectorMXBean: PS Scavenge
+    CollectionCount: 5
+    CollectionTime: 52
+    LastGcInfo: GcThreadCount = 1 duration = 8 endTime = 3389 id = 5 startTime = 3381 
+    MemoryPoolNames: [PS Eden Space, PS Survivor Space]
+    Valid: true
+MemoryMXBean: 
+  HeapMemoryUsage: init = 134217728(131072K) used = 101358320(98982K) committed = 231211008(225792K) max = 5726797824(5592576K)
+  NonHeapMemoryUsage: init = 7667712(7488K) used = 67268512(65691K) committed = 70254592(68608K) max = -1(-1K)
+  ObjectPendingFinalizationCount: 0
+  Verbose: false
+[MemoryPoolMXBeans]
+  MemoryPoolMXBean: CodeHeap 'non-nmethods'
+    MemoryManagerNames: [CodeCacheManager]
+    PeakUsage: init = 2555904(2496K) used = 1531008(1495K) committed = 2555904(2496K) max = 5898240(5760K)
+    Type: Non-heap memory
+    Usage: init = 2555904(2496K) used = 1417984(1384K) committed = 2555904(2496K) max = 5898240(5760K)
+    UsageThreshold: 0
+    UsageThresholdCount: 0
+    UsageThresholdExceeded: false
+  MemoryPoolMXBean: Metaspace
+    MemoryManagerNames: [Metaspace Manager]
+    PeakUsage: init = 0(0K) used = 49870152(48701K) committed = 51052544(49856K) max = -1(-1K)
+    Type: Non-heap memory
+    Usage: init = 0(0K) used = 49870152(48701K) committed = 51052544(49856K) max = -1(-1K)
+    UsageThreshold: 0
+    UsageThresholdCount: 0
+    UsageThresholdExceeded: false
+  MemoryPoolMXBean: CodeHeap 'profiled nmethods'
+    MemoryManagerNames: [CodeCacheManager]
+    PeakUsage: init = 2555904(2496K) used = 8316032(8121K) committed = 8323072(8128K) max = 122880000(120000K)
+    Type: Non-heap memory
+    Usage: init = 2555904(2496K) used = 8316032(8121K) committed = 8323072(8128K) max = 122880000(120000K)
+    UsageThreshold: 0
+    UsageThresholdCount: 0
+    UsageThresholdExceeded: false
+  MemoryPoolMXBean: PS Old Gen
+    CollectionUsage: init = 89653248(87552K) used = 31020896(30293K) committed = 89653248(87552K) max = 4294967296(4194304K)
+    CollectionUsageThreshold: 0
+    CollectionUsageThresholdCount: 0
+    CollectionUsageThresholdExceeded: false
+    MemoryManagerNames: [PS MarkSweep]
+    PeakUsage: init = 89653248(87552K) used = 31020896(30293K) committed = 89653248(87552K) max = 4294967296(4194304K)
+    Type: Heap memory
+    Usage: init = 89653248(87552K) used = 31020896(30293K) committed = 89653248(87552K) max = 4294967296(4194304K)
+    UsageThreshold: 0
+    UsageThresholdCount: 0
+    UsageThresholdExceeded: false
+  MemoryPoolMXBean: Compressed Class Space
+    MemoryManagerNames: [Metaspace Manager]
+    PeakUsage: init = 0(0K) used = 5035664(4917K) committed = 5636096(5504K) max = 1073741824(1048576K)
+    Type: Non-heap memory
+    Usage: init = 0(0K) used = 5035664(4917K) committed = 5636096(5504K) max = 1073741824(1048576K)
+    UsageThreshold: 0
+    UsageThresholdCount: 0
+    UsageThresholdExceeded: false
+  MemoryPoolMXBean: PS Survivor Space
+    CollectionUsage: init = 5242880(5120K) used = 0(0K) committed = 5242880(5120K) max = 5242880(5120K)
+    CollectionUsageThreshold: 0
+    CollectionUsageThresholdCount: 0
+    CollectionUsageThresholdExceeded: false
+    MemoryManagerNames: [PS MarkSweep, PS Scavenge]
+    PeakUsage: init = 5242880(5120K) used = 5241784(5118K) committed = 5242880(5120K) max = 5242880(5120K)
+    Type: Heap memory
+    Usage: init = 5242880(5120K) used = 0(0K) committed = 5242880(5120K) max = 5242880(5120K)
+  MemoryPoolMXBean: PS Eden Space
+    CollectionUsage: init = 34078720(33280K) used = 0(0K) committed = 136314880(133120K) max = 2123366400(2073600K)
+    CollectionUsageThreshold: 0
+    CollectionUsageThresholdCount: 0
+    CollectionUsageThresholdExceeded: false
+    MemoryManagerNames: [PS MarkSweep, PS Scavenge]
+    PeakUsage: init = 34078720(33280K) used = 88336880(86266K) committed = 136314880(133120K) max = 2136997888(2086912K)
+    Type: Heap memory
+    Usage: init = 34078720(33280K) used = 70337424(68688K) committed = 136314880(133120K) max = 2123366400(2073600K)
+  MemoryPoolMXBean: CodeHeap 'non-profiled nmethods'
+    MemoryManagerNames: [CodeCacheManager]
+    PeakUsage: init = 2555904(2496K) used = 2651520(2589K) committed = 2686976(2624K) max = 122880000(120000K)
+    Type: Non-heap memory
+    Usage: init = 2555904(2496K) used = 2651520(2589K) committed = 2686976(2624K) max = 122880000(120000K)
+    UsageThreshold: 0
+    UsageThresholdCount: 0
+    UsageThresholdExceeded: false
+OperatingSystemMXBean: Windows Server 2019
+  Arch: amd64
+  AvailableProcessors: 4
+  CommittedVirtualMemorySize: 644034560
+  CpuLoad: 0.0
+  FreeMemorySize: 2494173184
+  FreePhysicalMemorySize: 2493349888
+  FreeSwapSpaceSize: 6085533696
+  ProcessCpuLoad: 0.27905772253179023
+  ProcessCpuTime: 11296875000
+  SystemCpuLoad: 0.0
+  SystemLoadAverage: -1.0
+  TotalMemorySize: 8588910592
+  TotalPhysicalMemorySize: 8588910592
+  TotalSwapSpaceSize: 13834743808
+  Version: 10.0
+ThreadMXBean: 
+  CurrentThreadAllocatedBytes: 166846560
+  CurrentThreadCpuTime: 2437500000
+  CurrentThreadUserTime: 1859375000
+  DaemonThreadCount: 11
+  ObjectMonitorUsageSupported: true
+  PeakThreadCount: 13
+  SynchronizerUsageSupported: true
+  ThreadAllocatedMemoryEnabled: true
+  ThreadAllocatedMemorySupported: true
+  ThreadCount: 13
+  TotalStartedThreadCount: 13
+  TotalThreadAllocatedBytes: 314117760
+  Thread 1 [main]
+    ThreadCpuTime: 1703125000
+    ThreadUserTime: 1578125000
+  Thread 5 [Reference Handler]
+    ThreadCpuTime: 0
+    ThreadUserTime: 0
+  Thread 6 [Finalizer]
+    ThreadCpuTime: 0
+    ThreadUserTime: 0
+  Thread 7 [Signal Dispatcher]
+    ThreadCpuTime: 0
+    ThreadUserTime: 0
+  Thread 8 [Attach Listener]
+    ThreadCpuTime: 0
+    ThreadUserTime: 0
+  Thread 14 [Notification Thread]
+    ThreadCpuTime: 0
+    ThreadUserTime: 0
+  Thread 15 [Common-Cleaner]
+    ThreadCpuTime: 0
+    ThreadUserTime: 0
+  Thread 21 [BC FIPS Entropy Daemon]
+    ThreadCpuTime: 0
+    ThreadUserTime: 0
+  Thread 22 [Cleaner-0]
+    ThreadCpuTime: 0
+    ThreadUserTime: 0
+  Thread 23 [RMI TCP Accept-0]
+    ThreadCpuTime: 0
+    ThreadUserTime: 0
+  Thread 27 [sourceanalyzer]
+    ThreadCpuTime: 2437500000
+    ThreadUserTime: 2437500000
+  Thread 28 [Stream Monitor [out] ]
+    ThreadCpuTime: 0
+    ThreadUserTime: 0
+  Thread 29 [Stream Monitor [err] ]
+    ThreadCpuTime: 0
+    ThreadUserTime: 0
+
+   logger:com.fortify.sca.Main marker:DEV thread:sourceanalyzer-27
+   MDC:{msgId=-1, severity=NONE, step=SRC_PARSE} NDC:[]
+[2026-07-20 03:37:55.555 INFO  ]
+message id statistics:
+   id:        -1 total:        57 totalSuppressedCount:         0 scope:[]
+   id:      1450 total:        10 totalSuppressedCount:         0 scope:[]
+
+   logger:com.fortify.messaging.MessageSuppressor marker:DEV thread:sourceanalyzer-27
+   MDC:{msgId=-1, severity=NONE, step=SRC_PARSE} NDC:[]
+[2026-07-20 03:37:55.555 INFO  ]
+logger:null  count:22
+   level:INFO count:22
+logger:com.fortify.messaging.MessageSuppressor  count:1
+   level:INFO count:1
+logger:com.fortify.sca.cmd.CommandLine  count:2
+   level:INFO count:2
+logger:com.fortify.logging.log4j2.LoggerFactory  count:1
+   level:INFO count:1
+logger:com.fortify.sca.Main  count:4
+   level:INFO count:4
+logger:com.fortify.sca.frontend.FrontEndSession  count:2
+   level:INFO count:2
+logger:com.fortify.sca.frontend.javaJSP.JavaFrontEnd  count:12
+   level:INFO count:12
+
+   logger:com.fortify.logging.LoggerStats marker:DEV thread:sourceanalyzer-27
+   MDC:{msgId=-1, severity=NONE, step=SRC_PARSE} NDC:[]
