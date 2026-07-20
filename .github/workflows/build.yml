@@ -27,6 +27,3 @@ jobs:
 
       - name: Fortify Scan
         run: sourceanalyzer -b fortify-demo -scan -f fortify-demo.fpr
-
-      - name: Upload FPR to SSC
-        run: fortifyclient uploadFPR -url="${{ secrets.SSC_URL }}" -applicationVersionID=10008 -file=fortify-demo.fpr -user="${{ secrets.SSC_USER }}" -password="${{ secrets.SSC_PASSWORD }}"
